@@ -1,0 +1,84 @@
+gametitle=Resident Evil 4 USA SLUS-21134 013E349D
+comment=RE4 Original USA - Combined Cheat Pack
+
+// =================================
+// INFINITE HEALTH LEON
+// =================================
+patch=1,EE,1042DA76,extended,00000960
+patch=1,EE,1042DA78,extended,00000960
+
+// =================================
+// INFINITE HEALTH ASHLEY
+// =================================
+patch=1,EE,1042DA7A,extended,000004B0
+patch=1,EE,1042DA7C,extended,000004A0
+
+// =================================
+// INFINITE AMMO
+// =================================
+patch=1,EE,2012009C,extended,00000000
+
+// =================================
+// INFINITE GRENADES
+// =================================
+patch=1,EE,2011EF30,extended,00000000
+patch=1,EE,1011EF3E,extended,00001000
+
+// =================================
+// MAX PESETAS
+// =================================
+patch=1,EE,2042DA6C,extended,05F5E0FF
+
+// =================================
+// UNLOCK MODES
+// =================================
+patch=1,EE,10430F66,extended,0000FFFF
+
+// =================================
+// RAPID FIRE
+// =================================
+patch=1,EE,200C0220,extended,3C010042
+patch=1,EE,200C0224,extended,8C2103B0
+patch=1,EE,200C0228,extended,3C020043
+patch=1,EE,200C022C,extended,8C420FA8
+patch=1,EE,200C0230,extended,24030220
+patch=1,EE,200C0234,extended,14430002
+patch=1,EE,200C0238,extended,24030002
+patch=1,EE,200C023C,extended,A423011A
+patch=1,EE,200C0240,extended,24030221
+patch=1,EE,200C0244,extended,14430002
+patch=1,EE,200C0248,extended,24030002
+patch=1,EE,200C024C,extended,A423011A
+patch=1,EE,200C0250,extended,24030222
+patch=1,EE,200C0254,extended,14430002
+patch=1,EE,200C0258,extended,24030002
+patch=1,EE,200C025C,extended,A423011A
+patch=1,EE,200C0260,extended,24030224
+patch=1,EE,200C0264,extended,14430002
+patch=1,EE,200C0268,extended,24030002
+patch=1,EE,200C026C,extended,A423011A
+patch=1,EE,200C0270,extended,24030228
+patch=1,EE,200C0274,extended,14430002
+patch=1,EE,200C0278,extended,24030002
+patch=1,EE,200C027C,extended,A423011A
+patch=1,EE,200C0280,extended,3C02000C
+patch=1,EE,200C0284,extended,8C420218
+patch=1,EE,200C0288,extended,24030001
+patch=1,EE,200C028C,extended,14430002
+patch=1,EE,200C0290,extended,24030002
+patch=1,EE,200C0294,extended,A423011A
+patch=1,EE,200C0298,extended,03E00008
+patch=1,EE,201672EC,extended,08030088
+patch=1,EE,D0451402,extended,0000B7FF
+patch=1,EE,100C0218,extended,00000001
+patch=1,EE,D0451402,extended,0000F7FF
+patch=1,EE,100C0218,extended,00000000
+patch=1,EE,D0451402,extended,0000FFFF
+patch=1,EE,100C0218,extended,00000000
+patch=1,EE,D0451402,extended,0000BFFF
+patch=1,EE,100C0218,extended,00000000
+
+// =================================
+// INFINITE TIME FOR BUTTON MASHER SCENES
+// =================================
+patch=1,EE,101DE596,extended,00001000
