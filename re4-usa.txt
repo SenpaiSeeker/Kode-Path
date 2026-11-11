@@ -78,80 +78,6 @@ patch=1,EE,100C0218,extended,00000000
 patch=1,EE,D0451402,extended,0000BFFF
 patch=1,EE,100C0218,extended,00000000
 
-
-// ATTACHE CASE XL - LEON
-// PRESS L3 + UP TO FILL
-
-patch=1,EE,210F6540,extended,0001007F
-patch=1,EE,210F6544,extended,00000001
-patch=1,EE,210F6548,extended,00000000
-patch=1,EE,110F654C,extended,00000000
-patch=1,EE,E040FFED,extended,00451402
-patch=1,EE,210F655C,extended,03E70001
-patch=1,EE,210F6560,extended,00000001
-patch=1,EE,210F6564,extended,00130000
-patch=1,EE,110F6568,extended,00000101
-patch=1,EE,210F6578,extended,03E7000E
-patch=1,EE,210F657C,extended,00000001
-patch=1,EE,210F6580,extended,020F0000
-patch=1,EE,110F6584,extended,00000101
-patch=1,EE,210F6594,extended,03E70018
-patch=1,EE,210F6598,extended,00000001
-patch=1,EE,210F659C,extended,000F0000
-patch=1,EE,110F65A0,extended,00000100
-patch=1,EE,210F65B0,extended,0001002A
-patch=1,EE,210F65B4,extended,22020001
-patch=1,EE,210F65B8,extended,09031F38
-patch=1,EE,110F65BC,extended,00000100
-patch=1,EE,210F65CC,extended,00010034
-patch=1,EE,210F65D0,extended,60060001
-patch=1,EE,210F65D4,extended,060E00A0
-patch=1,EE,110F65D8,extended,00000100
-patch=1,EE,210F65E8,extended,00010045
-patch=1,EE,210F65EC,extended,00000001
-patch=1,EE,210F65F0,extended,0A0A0000
-patch=1,EE,110F65F4,extended,00000100
-patch=1,EE,210F6604,extended,00010094
-patch=1,EE,210F6608,extended,53060001
-patch=1,EE,210F660C,extended,08171F38
-patch=1,EE,110F6610,extended,00000103
-patch=1,EE,210F6620,extended,03E70000
-patch=1,EE,210F6624,extended,00000001
-patch=1,EE,210F6628,extended,000B0000
-patch=1,EE,110F662C,extended,00000100
-patch=1,EE,210F663C,extended,03E70002
-patch=1,EE,210F6640,extended,00000001
-patch=1,EE,210F6644,extended,02130000
-patch=1,EE,110F6648,extended,00000101
-patch=1,EE,210F6658,extended,03E70015
-patch=1,EE,210F665C,extended,00000001
-patch=1,EE,210F6660,extended,01000000
-patch=1,EE,110F6664,extended,00000100
-patch=1,EE,210F6674,extended,00010029
-patch=1,EE,210F6678,extended,33060001
-patch=1,EE,210F667C,extended,05031F38
-patch=1,EE,110F6680,extended,00000100
-patch=1,EE,210F6690,extended,0001002F
-patch=1,EE,210F6694,extended,53060001
-patch=1,EE,210F6698,extended,0D061F38
-patch=1,EE,110F669C,extended,00000100
-patch=1,EE,210F66AC,extended,00010037
-patch=1,EE,210F66B0,extended,62060001
-patch=1,EE,210F66B4,extended,01050000
-patch=1,EE,110F66B8,extended,00000100
-patch=1,EE,210F66C8,extended,0001006D
-patch=1,EE,210F66CC,extended,00000001
-patch=1,EE,210F66D0,extended,071B0000
-patch=1,EE,110F66D4,extended,00000101
-patch=1,EE,210F66E4,extended,03E70007
-patch=1,EE,210F66E8,extended,00000001
-patch=1,EE,210F66EC,extended,020B0000
-patch=1,EE,110F66F0,extended,00000100
-patch=1,EE,210F6700,extended,000100C5
-patch=1,EE,210F6704,extended,00000001
-patch=1,EE,210F6708,extended,0A100000
-patch=1,EE,110F670C,extended,00000100
-
 // =================================
 // INFINITE TIME FOR BUTTON MASHER SCENES
 // =================================
@@ -166,7 +92,6 @@ patch=1,EE,D0430FA4,extended,00004008
 patch=1,EE,201A206C,extended,00000000
 patch=1,EE,D0430FA4,extended,00004004
 patch=1,EE,201A206C,extended,0C0688C2
-
 
 // =================================
 // ATTACHE CASE XL - LEON
