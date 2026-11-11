@@ -20,6 +20,17 @@ patch=1,EE,2012020C,extended,24420000
 patch=1,EE,2012032C,extended,00000000
 
 // =================================
+// 999 AMMO IN CLIP
+// =================================
+patch=1,EE,201201E4,extended,20031F45
+
+// =================================
+// INFINITE GRENADES / RPG
+// =================================
+patch=1,EE,2011F1B0,extended,00000000
+patch=1,EE,1011F1BE,extended,00001000
+
+// =================================
 // MAX / INFINITE CASH
 // =================================
 patch=1,EE,2042DCEC,extended,3B9AC9FF
@@ -30,9 +41,33 @@ patch=1,EE,2042DCEC,extended,3B9AC9FF
 patch=1,EE,104311E6,extended,0000FFFF
 
 // =================================
-// 999 AMMO IN CLIP
+// INFINITE TIME FOR BUTTON MASHER SCENES
 // =================================
-patch=1,EE,201201E4,extended,20031F45
+patch=1,EE,101DE816,extended,00001000
+
+// =================================
+// RAPID FIRE (PAL)
+// =================================
+patch=1,EE,200C0220,extended,3C010042
+patch=1,EE,200C0224,extended,8C210630
+patch=1,EE,200C0228,extended,3C02000C
+patch=1,EE,200C022C,extended,8C420218
+patch=1,EE,200C0230,extended,24030001
+patch=1,EE,200C0234,extended,14430002
+patch=1,EE,200C0238,extended,24030002
+patch=1,EE,200C023C,extended,A423011A
+patch=1,EE,200C0240,extended,03E00008
+patch=1,EE,2016825C,extended,08030088
+patch=1,EE,D0431224,extended,00000220
+patch=1,EE,100C0218,extended,00000001
+patch=1,EE,D0431224,extended,00000221
+patch=1,EE,100C0218,extended,00000001
+patch=1,EE,D0431224,extended,00000222
+patch=1,EE,100C0218,extended,00000001
+patch=1,EE,D0431224,extended,00000224
+patch=1,EE,100C0218,extended,00000001
+patch=1,EE,D0431224,extended,00000228
+patch=1,EE,100C0218,extended,00000001
 
 // =================================
 // WALK THROUGH WALLS / OBJECTS
@@ -45,3 +80,97 @@ patch=1,EE,201A2154,extended,00000000
 patch=1,EE,D0451682,extended,0000FFBB
 patch=1,EE,201A2154,extended,0C0688FC
 
+// ==========================================================
+// ATTACHE CASE XL - CUSTOM WEAPONS & ITEMS (PAL)
+// TEKAN: L3 + ATAS (D-PAD UP) UNTUK MENGISI TAS
+// ==========================================================
+// Base: Attache Case XL
+patch=1,EE,210F7F54,extended,0001007F
+patch=1,EE,210F7F58,extended,00000001
+patch=1,EE,210F7F5C,extended,00000000
+patch=1,EE,110F7F60,extended,00000000
+
+// Trigger L3 + Atas (PAL Controller: 0x00451682 == 0xFFED)
+patch=1,EE,E040FFED,extended,00451682
+
+// 1. P.R.L. 412 Laser
+patch=1,EE,210F7F70,extended,00010041
+patch=1,EE,210F7F74,extended,00000001
+patch=1,EE,210F7F78,extended,0A0A0000
+patch=1,EE,110F7F7C,extended,00000100
+
+// 2. Chicago Typewriter (Posisi Vertikal Bebas Tabrakan)
+patch=1,EE,210F7F8C,extended,00010034
+patch=1,EE,210F7F90,extended,60060001
+patch=1,EE,210F7F94,extended,08171F38
+patch=1,EE,110F7F98,extended,00000103
+
+// 3. Basoka Infinite (Infinite Rocket Launcher)
+patch=1,EE,210F7FA8,extended,0001006D
+patch=1,EE,210F7FAC,extended,00000001
+patch=1,EE,210F7FB0,extended,071B0000
+patch=1,EE,110F7FB4,extended,00000101
+
+// 4. Handcannon (Max Exclusive 99.9 + Infinite)
+patch=1,EE,210F7FC4,extended,00010037
+patch=1,EE,210F7FC8,extended,62060001
+patch=1,EE,210F7FCC,extended,01050000
+patch=1,EE,110F7FD0,extended,00000100
+
+// 5. Mixed Herbs G+R+Y x999 (Darah Penuh)
+patch=1,EE,210F7FE0,extended,03E70015
+patch=1,EE,210F7FE4,extended,00000001
+patch=1,EE,210F7FE8,extended,01000000
+patch=1,EE,110F7FEC,extended,00000100
+
+// 6. Hand Grenade x999 (Granat Biasa / Hijau)
+patch=1,EE,210F7FFC,extended,03E70001
+patch=1,EE,210F8000,extended,00000001
+patch=1,EE,210F8004,extended,000B0000
+patch=1,EE,110F8008,extended,00000101
+
+// 7. Incendiary Grenade x999 (Granat Api / Merah)
+patch=1,EE,210F8018,extended,03E70002
+patch=1,EE,210F801C,extended,00000001
+patch=1,EE,210F8020,extended,020B0000
+patch=1,EE,110F8024,extended,00000101
+
+// 8. Flash Grenade x999 (Granat Cahaya / Biru)
+patch=1,EE,210F8034,extended,03E7000E
+patch=1,EE,210F8038,extended,00000001
+patch=1,EE,210F803C,extended,020F0000
+patch=1,EE,110F8040,extended,00000101
+
+// Membersihkan slot 9 - 16 agar tas tetap rapi
+patch=1,EE,210F8050,extended,00000000
+patch=1,EE,210F8054,extended,00000000
+patch=1,EE,210F8058,extended,00000000
+patch=1,EE,110F805C,extended,00000000
+patch=1,EE,210F806C,extended,00000000
+patch=1,EE,210F8070,extended,00000000
+patch=1,EE,210F8074,extended,00000000
+patch=1,EE,110F8078,extended,00000000
+patch=1,EE,210F8088,extended,00000000
+patch=1,EE,210F808C,extended,00000000
+patch=1,EE,210F8090,extended,00000000
+patch=1,EE,110F8094,extended,00000000
+patch=1,EE,210F80A4,extended,00000000
+patch=1,EE,210F80A8,extended,00000000
+patch=1,EE,210F80AC,extended,00000000
+patch=1,EE,110F80B0,extended,00000000
+patch=1,EE,210F80C0,extended,00000000
+patch=1,EE,210F80C4,extended,00000000
+patch=1,EE,210F80C8,extended,00000000
+patch=1,EE,110F80CC,extended,00000000
+patch=1,EE,210F80DC,extended,00000000
+patch=1,EE,210F80E0,extended,00000000
+patch=1,EE,210F80E4,extended,00000000
+patch=1,EE,110F80E8,extended,00000000
+patch=1,EE,210F80F8,extended,00000000
+patch=1,EE,210F80FC,extended,00000000
+patch=1,EE,210F8100,extended,00000000
+patch=1,EE,110F8104,extended,00000000
+patch=1,EE,210F8114,extended,00000000
+patch=1,EE,210F8118,extended,00000000
+patch=1,EE,210F811C,extended,00000000
+patch=1,EE,110F8120,extended,00000000
