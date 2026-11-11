@@ -1,0 +1,36 @@
+
+gametitle=Resident Evil 4 Europe SLES-53702 6BA2F6B9
+comment=RE4 Original Europe - Combined Cheat Pack
+
+// =================================
+// INFINITE HEALTH LEON
+// =================================
+patch=1,EE,1042DCF6,extended,00000960
+patch=1,EE,1042DCF8,extended,00000960
+
+// =================================
+// INFINITE HEALTH ASHLEY
+// =================================
+patch=1,EE,1042DCFA,extended,000004B0
+patch=1,EE,1042DCFC,extended,000004B0
+
+// =================================
+// INFINITE AMMO / NO RELOAD
+// =================================
+patch=1,EE,2012020C,extended,24420000
+patch=1,EE,2012032C,extended,00000000
+
+// =================================
+// MAX / INFINITE CASH
+// =================================
+patch=1,EE,2042DCEC,extended,3B9AC9FF
+
+// =================================
+// UNLOCK EVERYTHING
+// =================================
+patch=1,EE,104311E6,extended,0000FFFF
+
+// =================================
+// 999 AMMO IN CLIP
+// =================================
+patch=1,EE,201201E4,extended,20031F45
