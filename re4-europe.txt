@@ -1,4 +1,3 @@
-
 gametitle=Resident Evil 4 Europe SLES-53702 6BA2F6B9
 comment=RE4 Original Europe - Combined Cheat Pack
 
@@ -34,3 +33,15 @@ patch=1,EE,104311E6,extended,0000FFFF
 // 999 AMMO IN CLIP
 // =================================
 patch=1,EE,201201E4,extended,20031F45
+
+// =================================
+// WALK THROUGH WALLS / OBJECTS
+// =================================
+// R3 + UP = ON
+patch=1,EE,D0451682,extended,0000FFEB
+patch=1,EE,201A2154,extended,00000000
+
+// R3 + DOWN = OFF
+patch=1,EE,D0451682,extended,0000FFBB
+patch=1,EE,201A2154,extended,0C0688FC
+
