@@ -82,3 +82,14 @@ patch=1,EE,100C0218,extended,00000000
 // INFINITE TIME FOR BUTTON MASHER SCENES
 // =================================
 patch=1,EE,101DE596,extended,00001000
+
+// =================================
+// WALK THROUGH WALLS / OBJECTS
+// =================================
+// R3 + UP = ON
+patch=1,EE,D0430FA4,extended,00004008
+patch=1,EE,201A206C,extended,00000000
+
+// R3 + DOWN = OFF
+patch=1,EE,D0430FA4,extended,00004004
+patch=1,EE,201A206C,extended,0C0688C2
