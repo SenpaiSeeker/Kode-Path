@@ -108,50 +108,50 @@ patch=1,EE,110F654C,extended,00000000
 // Trigger L3 + Atas (0x00451402 == 0xFFED, 32 baris = 0x20)
 patch=1,EE,E020FFED,extended,00451402
 
-// 1. P.R.L. 412 Laser
+// 1. P.R.L. 412 Laser (Horizontal, Kanan Atas)
 patch=1,EE,210F655C,extended,00010041
 patch=1,EE,210F6560,extended,00000001
-patch=1,EE,210F6564,extended,0A0A0000
+patch=1,EE,210F6564,extended,02140000
 patch=1,EE,110F6568,extended,00000100
 
-// 2. Chicago Typewriter (Posisi Vertikal)
+// 2. Chicago Typewriter (Horizontal, Kiri Atas)
 patch=1,EE,210F6578,extended,00010034
 patch=1,EE,210F657C,extended,60060001
-patch=1,EE,210F6580,extended,08171F38
-patch=1,EE,110F6584,extended,00000103
+patch=1,EE,210F6580,extended,01061F38
+patch=1,EE,110F6584,extended,00000100
 
-// 3. Basoka Infinite (Infinite Rocket Launcher)
+// 3. Basoka Infinite (Horizontal, Kiri Tengah)
 patch=1,EE,210F6594,extended,0001006D
 patch=1,EE,210F6598,extended,00000001
-patch=1,EE,210F659C,extended,071B0000
-patch=1,EE,110F65A0,extended,00000101
+patch=1,EE,210F659C,extended,07070000
+patch=1,EE,110F65A0,extended,00000100
 
-// 4. Handcannon (Max Exclusive 99.9 + Infinite)
+// 4. Handcannon (Horizontal, Sebelah Basoka)
 patch=1,EE,210F65B0,extended,00010037
 patch=1,EE,210F65B4,extended,62060001
-patch=1,EE,210F65B8,extended,01050000
+patch=1,EE,210F65B8,extended,07130000
 patch=1,EE,110F65BC,extended,00000100
 
-// 5. Mixed Herbs G+R+Y x999 (Darah Penuh)
+// 5. Mixed Herbs G+R+Y x999 (Vertikal, Paling Kanan Baris 1)
 patch=1,EE,210F65CC,extended,03E70015
 patch=1,EE,210F65D0,extended,00000001
-patch=1,EE,210F65D4,extended,01000000
+patch=1,EE,210F65D4,extended,011C0000
 patch=1,EE,110F65D8,extended,00000100
 
-// 6. Hand Grenade x999 (Granat Biasa / Hijau)
+// 6. Hand Grenade x999 (Vertikal, Paling Kanan Baris 2)
 patch=1,EE,210F65E8,extended,03E70001
 patch=1,EE,210F65EC,extended,00000001
-patch=1,EE,210F65F0,extended,000B0000
-patch=1,EE,110F65F4,extended,00000101
+patch=1,EE,210F65F0,extended,051C0000
+patch=1,EE,110F65F4,extended,00000100
 
-// 7. Incendiary Grenade x999 (Granat Api / Merah)
+// 7. Incendiary Grenade x999 (Vertikal, Paling Kanan Baris 3)
 patch=1,EE,210F6604,extended,03E70002
 patch=1,EE,210F6608,extended,00000001
-patch=1,EE,210F660C,extended,020B0000
-patch=1,EE,110F6610,extended,00000101
+patch=1,EE,210F660C,extended,091C0000
+patch=1,EE,110F6610,extended,00000100
 
-// 8. Flash Grenade x999 (Granat Cahaya / Biru)
+// 8. Flash Grenade x999 (Vertikal, Paling Kanan Baris 4)
 patch=1,EE,210F6620,extended,03E7000E
 patch=1,EE,210F6624,extended,00000001
-patch=1,EE,210F6628,extended,020F0000
-patch=1,EE,110F662C,extended,00000101
+patch=1,EE,210F6628,extended,0D1C0000
+patch=1,EE,110F662C,extended,00000100
