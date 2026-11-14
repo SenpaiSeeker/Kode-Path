@@ -30,11 +30,6 @@ patch=1,EE,1011EF3E,extended,00001000
 patch=1,EE,2042DA6C,extended,05F5E0FF
 
 // =================================
-// UNLOCK MODES
-// =================================
-patch=1,EE,10430F66,extended,0000FFFF
-
-// =================================
 // RAPID FIRE
 // =================================
 patch=1,EE,200C0220,extended,3C010042
@@ -93,6 +88,13 @@ patch=1,EE,201A206C,extended,00000000
 patch=1,EE,D0430FA4,extended,00004004
 patch=1,EE,201A206C,extended,0C0688C2
 
+// =================================
+// UNLOCK EVERYTHING
+// (Extras, Modes, Costumes, Mercenaries Characters & Ada's Reports)
+// =================================
+patch=1,EE,10430F66,extended,0000FFFF
+patch=1,EE,00430F6D,extended,00000004
+
 // ==========================================================
 // ATTACHE CASE XL - CUSTOM WEAPONS & ITEMS
 // TEKAN: L3 + ATAS (D-PAD UP) UNTUK MENGISI TAS
@@ -103,8 +105,8 @@ patch=1,EE,210F6544,extended,00000001
 patch=1,EE,210F6548,extended,00000000
 patch=1,EE,110F654C,extended,00000000
 
-// Trigger L3 + Atas (0x00451402 == 0xFFED)
-patch=1,EE,E040FFED,extended,00451402
+// Trigger L3 + Atas (0x00451402 == 0xFFED, 32 baris = 0x20)
+patch=1,EE,E020FFED,extended,00451402
 
 // 1. P.R.L. 412 Laser
 patch=1,EE,210F655C,extended,00010041
